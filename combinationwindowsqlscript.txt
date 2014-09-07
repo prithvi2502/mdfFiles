@@ -1,0 +1,12 @@
+CREATE DATABASE combination_window;
+CREATE TABLE list_query
+(
+
+email varchar(600),
+fname varchar(600),
+lname varchar(600),
+query_test varchar(max)
+);
+
+INSERT INTO list_query
+VALUES("prithvi2502@gmai.com", "Prithviraj", "Vishwakarma", "SELECT * FROM prithvi2502@gmailcom where bornon = 0  order by [date_today] desc");
